@@ -1,5 +1,8 @@
 # finance-app
 
+<img width="1588" height="866" alt="image" src="https://github.com/user-attachments/assets/a19c3bd1-3e15-433b-a4be-8af5b557305e" />
+<img width="1355" height="863" alt="image" src="https://github.com/user-attachments/assets/c29d3287-b756-475e-a49d-ea5b03cbdbc5" />
+<img width="962" height="857" alt="image" src="https://github.com/user-attachments/assets/49147dbe-cafe-46df-9c6a-9ff9efc161e6" />
 
 
 ## 🔑 Основні особливості проекту
@@ -18,8 +21,45 @@
  * `server/` — серверна частина (backend), створена на Node.js з використанням фреймворку Express.js. Виконує обробку запитів, бізнес-логіку синхронізації та взаємодію з зовнішніми API.
 
 
+
 ## 🚀 Як розгорнути і запустити проект
 ### Вимоги
 - Node.js (версія 18+ для підтримки вбудованого fetch)
 - NPM (Node Package Manager)
 - MongoDB (доступ до MongoDB Atlas або локальне використання)
+
+### Інструкції
+1) **Клонування проекту**
+-
+  Клонувати репозиторій на локальну машину
+   ```
+   git clone https://github.com/vtkachenko157/finance-app.git
+   ```
+   Перехід в папку проекту
+   ```
+   cd finance-app
+   ```
+2) **Запуск бекенду (серверної частини)**
+-
+   Перейти у папку серверу (server) та встановити залежності командою:
+   ```
+   npm install
+   ```
+-
+   Запуск серверу:
+   ```
+   npm run start
+   ```
+3) **Запуск фронтенду (клієнтської частини)**
+-
+   Перейти у папку web та встановити залежності командою:
+   ```
+   npm install
+   ```
+-
+   Запуск React додатку:
+   ```
+   npm run dev
+   ```
+
+Після запуску застосунок буде доступний за посиланням в браузері - `http://localhost:5173`
